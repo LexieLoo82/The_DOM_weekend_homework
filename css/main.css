@@ -1,0 +1,52 @@
+body {
+  font-family: arial;
+  background-image: url("https://happyholidaysblog.com/wp-content/uploads/Red-Christmas-Backgrounds-01.jpg");
+  background-size: 100%;
+  opacity: 50%;
+  color: white;
+  text-align: center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+/* FORM */
+input[type=text] {
+    width: 20%;
+    padding: 10px 18px;
+    margin: 12px 2px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 16px;
+  }
+
+
+select {
+    width: 20%;
+    padding: 16px 16px;
+    border: solid;
+    border-radius: 1px;
+    background-color: white;
+    font-size: 16px;
+}
+
+/* BUTTONS */
+.button-style {
+  background-color: white; /* Green */
+  border: solid;
+  color: black;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 150%;
+}
+
+
+/* RETURN LIST  */
+.return-list {
+  text-align: center;
+  font-size: 16px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  list-style-type: none;
+}
